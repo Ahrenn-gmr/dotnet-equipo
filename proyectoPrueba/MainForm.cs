@@ -42,9 +42,9 @@ namespace proyectoPrueba
 			else if (user == "CBTis217" && contra == "Programacion")
 			{
 			    MessageBox.Show("¡Inicio de sesión exitoso! Bienvenido.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-			    // Form1 menu = new Form1();
-			    // menu.Show();
-			    // this.Hide();
+			    Form1 menu = new Form1();
+			    menu.Show();
+			    this.Hide();
 			}
 			else
 			{
