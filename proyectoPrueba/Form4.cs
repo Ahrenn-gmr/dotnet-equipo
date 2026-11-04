@@ -28,5 +28,12 @@ namespace proyectoPrueba
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtnRegresarClick(object sender, EventArgs e)
+		{
+			Form1 y = new Form1();
+			y.Show();
+			this.Hide();
+		}
 	}
 }
