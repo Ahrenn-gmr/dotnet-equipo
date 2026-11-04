@@ -67,5 +67,12 @@ namespace proyectoPrueba
 			        lblResultado.Text = string.Format("${0:N2} MXN equivalen a {1:N2} USD", cantidad, resultado);
 			    }
 		}
+		
+		void BtnRegresarClick(object sender, EventArgs e)
+		{
+			Form1 a = new Form1();
+			a.Show();
+			this.Hide();
+		}
 	}
 }
