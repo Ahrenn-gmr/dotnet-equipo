@@ -37,18 +37,18 @@ namespace proyectoPrueba
 			
 			if (string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(contra))
 			{
-			    MessageBox.Show("No puede haber campos vacíos.", "Error de Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+			    MessageBox.Show("No has escrito nada o uno de los campos esta vacio.", "Error de Validacion de informacion personal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 			}
 			else if (user == "CBTis217" && contra == "Programacion")
 			{
-			    MessageBox.Show("¡Inicio de sesión exitoso! Bienvenido.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+			    MessageBox.Show("Has iniciado sesion correctamente! Bienvenido.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			    Form1 menu = new Form1();
 			    menu.Show();
 			    this.Hide();
 			}
 			else
 			{
-			    MessageBox.Show("Usuario y contraseña incorrectos.", "Error de Acceso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			    MessageBox.Show("Usuario y contraseña incorrectos.", "Error de Inicio de Sesion", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 
 		}
