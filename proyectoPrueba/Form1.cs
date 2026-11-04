@@ -36,23 +36,23 @@ namespace proyectoPrueba
 		
 		void BtnPesosDolaresClick(object sender, EventArgs e)
 		{
-			//Form2 t = new Form2();
-			//t.Show();
-			//this.Hide();
+			Form2 t = new Form2();
+			t.Show();
+			this.Hide();
 		}
 		
 		void BtnDistanciaClick(object sender, EventArgs e)
 		{
-			//Form3 y = new Form3();
-			//y.Show();
-			//this.Hide();
+			Form3 y = new Form3();
+			y.Show();
+			this.Hide();
 		}
 		
 		void BtnCordenadaClick(object sender, EventArgs e)
 		{
-			//Form4 P = new Form4();
-			//P.Show();
-			//this.Hide();
+			Form4 P = new Form4();
+			P.Show();
+			this.Hide();
 		}
 	}
 }
