@@ -53,9 +53,9 @@ namespace proyectoPrueba
 			// 
 			this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(12, 102);
+			this.label1.Location = new System.Drawing.Point(60, 104);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(653, 57);
+			this.label1.Size = new System.Drawing.Size(504, 113);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Inicia Sesión en Nuestro Programa";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -64,7 +64,7 @@ namespace proyectoPrueba
 			// 
 			this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(61, 192);
+			this.label2.Location = new System.Drawing.Point(86, 254);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(247, 23);
 			this.label2.TabIndex = 1;
@@ -74,7 +74,7 @@ namespace proyectoPrueba
 			// 
 			this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Location = new System.Drawing.Point(61, 288);
+			this.label3.Location = new System.Drawing.Point(86, 348);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(218, 29);
 			this.label3.TabIndex = 2;
@@ -85,10 +85,10 @@ namespace proyectoPrueba
 			this.txtUSUARIO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtUSUARIO.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtUSUARIO.ForeColor = System.Drawing.Color.White;
-			this.txtUSUARIO.Location = new System.Drawing.Point(110, 230);
+			this.txtUSUARIO.Location = new System.Drawing.Point(138, 290);
 			this.txtUSUARIO.Multiline = true;
 			this.txtUSUARIO.Name = "txtUSUARIO";
-			this.txtUSUARIO.Size = new System.Drawing.Size(466, 40);
+			this.txtUSUARIO.Size = new System.Drawing.Size(360, 40);
 			this.txtUSUARIO.TabIndex = 3;
 			// 
 			// txtCONTRA
@@ -96,19 +96,19 @@ namespace proyectoPrueba
 			this.txtCONTRA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtCONTRA.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtCONTRA.ForeColor = System.Drawing.Color.White;
-			this.txtCONTRA.Location = new System.Drawing.Point(110, 329);
+			this.txtCONTRA.Location = new System.Drawing.Point(138, 380);
 			this.txtCONTRA.Multiline = true;
 			this.txtCONTRA.Name = "txtCONTRA";
-			this.txtCONTRA.Size = new System.Drawing.Size(466, 41);
+			this.txtCONTRA.Size = new System.Drawing.Size(360, 41);
 			this.txtCONTRA.TabIndex = 4;
 			// 
 			// btnINICIAR
 			// 
 			this.btnINICIAR.BackColor = System.Drawing.Color.LimeGreen;
 			this.btnINICIAR.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnINICIAR.Location = new System.Drawing.Point(156, 404);
+			this.btnINICIAR.Location = new System.Drawing.Point(178, 445);
 			this.btnINICIAR.Name = "btnINICIAR";
-			this.btnINICIAR.Size = new System.Drawing.Size(361, 58);
+			this.btnINICIAR.Size = new System.Drawing.Size(287, 58);
 			this.btnINICIAR.TabIndex = 5;
 			this.btnINICIAR.Text = "Iniciar Sesión";
 			this.btnINICIAR.UseVisualStyleBackColor = false;
@@ -117,7 +117,7 @@ namespace proyectoPrueba
 			// label4
 			// 
 			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(122, 486);
+			this.label4.Location = new System.Drawing.Point(100, 530);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(433, 44);
 			this.label4.TabIndex = 6;
@@ -129,9 +129,9 @@ namespace proyectoPrueba
 			// 
 			this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label5.ForeColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(57, 149);
+			this.label5.Location = new System.Drawing.Point(12, 217);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(567, 23);
+			this.label5.Size = new System.Drawing.Size(598, 23);
 			this.label5.TabIndex = 7;
 			this.label5.Text = "¡Bienvenid@ de vuelta! Tendrás que identificarte primero antes de entrar.";
 			this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -139,9 +139,9 @@ namespace proyectoPrueba
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(289, 12);
+			this.pictureBox1.Location = new System.Drawing.Point(258, 12);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(106, 93);
+			this.pictureBox1.Size = new System.Drawing.Size(100, 93);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 8;
 			this.pictureBox1.TabStop = false;
@@ -151,7 +151,7 @@ namespace proyectoPrueba
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-			this.ClientSize = new System.Drawing.Size(671, 543);
+			this.ClientSize = new System.Drawing.Size(622, 596);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.label4);
@@ -163,7 +163,7 @@ namespace proyectoPrueba
 			this.Controls.Add(this.label1);
 			this.Name = "MainForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Identificate";
+			this.Text = "BIENVENIDO";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
