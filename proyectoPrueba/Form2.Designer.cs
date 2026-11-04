@@ -48,15 +48,17 @@ namespace proyectoPrueba
 			this.txtTipoCambio = new System.Windows.Forms.TextBox();
 			this.btnConvertir = new System.Windows.Forms.Button();
 			this.lblResultado = new System.Windows.Forms.Label();
+			this.btnRegresar = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+			this.pictureBox1.Location = new System.Drawing.Point(9, 10);
+			this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(120, 110);
+			this.pictureBox1.Size = new System.Drawing.Size(90, 89);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 0;
 			this.pictureBox1.TabStop = false;
@@ -65,9 +67,10 @@ namespace proyectoPrueba
 			// 
 			this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.Color.White;
-			this.label1.Location = new System.Drawing.Point(138, 12);
+			this.label1.Location = new System.Drawing.Point(104, 10);
+			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(497, 53);
+			this.label1.Size = new System.Drawing.Size(373, 43);
 			this.label1.TabIndex = 1;
 			this.label1.Text = "¡BIENVENID@!";
 			// 
@@ -75,9 +78,10 @@ namespace proyectoPrueba
 			// 
 			this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.Color.White;
-			this.label2.Location = new System.Drawing.Point(138, 65);
+			this.label2.Location = new System.Drawing.Point(104, 53);
+			this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(331, 98);
+			this.label2.Size = new System.Drawing.Size(248, 80);
 			this.label2.TabIndex = 2;
 			this.label2.Text = "Convierte fácilmente Dolares a Pesos y Pesos a Dolares. ⚠️ Los datos que te arroj" +
 			"e el resultado pueden no ser reales o hayan cambiado\r\n";
@@ -92,9 +96,10 @@ namespace proyectoPrueba
 			this.cmbConversion.Items.AddRange(new object[] {
 									"Dolares a Pesos",
 									"Pesos a Dolares"});
-			this.cmbConversion.Location = new System.Drawing.Point(12, 196);
+			this.cmbConversion.Location = new System.Drawing.Point(9, 159);
+			this.cmbConversion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.cmbConversion.Name = "cmbConversion";
-			this.cmbConversion.Size = new System.Drawing.Size(301, 36);
+			this.cmbConversion.Size = new System.Drawing.Size(227, 29);
 			this.cmbConversion.TabIndex = 3;
 			// 
 			// txtCantidad
@@ -102,19 +107,21 @@ namespace proyectoPrueba
 			this.txtCantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtCantidad.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtCantidad.ForeColor = System.Drawing.Color.White;
-			this.txtCantidad.Location = new System.Drawing.Point(12, 280);
+			this.txtCantidad.Location = new System.Drawing.Point(9, 228);
+			this.txtCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.txtCantidad.Multiline = true;
 			this.txtCantidad.Name = "txtCantidad";
-			this.txtCantidad.Size = new System.Drawing.Size(360, 40);
+			this.txtCantidad.Size = new System.Drawing.Size(271, 33);
 			this.txtCantidad.TabIndex = 5;
 			// 
 			// label3
 			// 
 			this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.Color.White;
-			this.label3.Location = new System.Drawing.Point(12, 163);
+			this.label3.Location = new System.Drawing.Point(9, 132);
+			this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(351, 30);
+			this.label3.Size = new System.Drawing.Size(263, 24);
 			this.label3.TabIndex = 4;
 			this.label3.Text = "Seleccione el Tipo de Conversion:";
 			// 
@@ -122,9 +129,10 @@ namespace proyectoPrueba
 			// 
 			this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(12, 247);
+			this.label4.Location = new System.Drawing.Point(9, 201);
+			this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(240, 30);
+			this.label4.Size = new System.Drawing.Size(180, 24);
 			this.label4.TabIndex = 6;
 			this.label4.Text = "Cantidad a Convertir:";
 			// 
@@ -132,9 +140,10 @@ namespace proyectoPrueba
 			// 
 			this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label5.ForeColor = System.Drawing.Color.White;
-			this.label5.Location = new System.Drawing.Point(12, 341);
+			this.label5.Location = new System.Drawing.Point(9, 277);
+			this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(240, 30);
+			this.label5.Size = new System.Drawing.Size(180, 24);
 			this.label5.TabIndex = 7;
 			this.label5.Text = "Tipo de Cambio:";
 			// 
@@ -143,19 +152,21 @@ namespace proyectoPrueba
 			this.txtTipoCambio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.txtTipoCambio.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtTipoCambio.ForeColor = System.Drawing.Color.White;
-			this.txtTipoCambio.Location = new System.Drawing.Point(12, 374);
+			this.txtTipoCambio.Location = new System.Drawing.Point(9, 304);
+			this.txtTipoCambio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.txtTipoCambio.Multiline = true;
 			this.txtTipoCambio.Name = "txtTipoCambio";
-			this.txtTipoCambio.Size = new System.Drawing.Size(360, 40);
+			this.txtTipoCambio.Size = new System.Drawing.Size(271, 33);
 			this.txtTipoCambio.TabIndex = 8;
 			// 
 			// btnConvertir
 			// 
 			this.btnConvertir.BackColor = System.Drawing.Color.Lime;
 			this.btnConvertir.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnConvertir.Location = new System.Drawing.Point(119, 442);
+			this.btnConvertir.Location = new System.Drawing.Point(89, 359);
+			this.btnConvertir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.btnConvertir.Name = "btnConvertir";
-			this.btnConvertir.Size = new System.Drawing.Size(244, 56);
+			this.btnConvertir.Size = new System.Drawing.Size(183, 46);
 			this.btnConvertir.TabIndex = 9;
 			this.btnConvertir.Text = "Convertir";
 			this.btnConvertir.UseVisualStyleBackColor = false;
@@ -165,17 +176,32 @@ namespace proyectoPrueba
 			// 
 			this.lblResultado.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblResultado.ForeColor = System.Drawing.Color.White;
-			this.lblResultado.Location = new System.Drawing.Point(21, 526);
+			this.lblResultado.Location = new System.Drawing.Point(16, 446);
+			this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.lblResultado.Name = "lblResultado";
-			this.lblResultado.Size = new System.Drawing.Size(448, 30);
+			this.lblResultado.Size = new System.Drawing.Size(336, 24);
 			this.lblResultado.TabIndex = 10;
+			// 
+			// btnRegresar
+			// 
+			this.btnRegresar.BackColor = System.Drawing.Color.Lime;
+			this.btnRegresar.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnRegresar.Location = new System.Drawing.Point(98, 412);
+			this.btnRegresar.Margin = new System.Windows.Forms.Padding(2);
+			this.btnRegresar.Name = "btnRegresar";
+			this.btnRegresar.Size = new System.Drawing.Size(161, 32);
+			this.btnRegresar.TabIndex = 11;
+			this.btnRegresar.Text = "REGRESAR";
+			this.btnRegresar.UseVisualStyleBackColor = false;
+			this.btnRegresar.Click += new System.EventHandler(this.BtnRegresarClick);
 			// 
 			// Form2
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-			this.ClientSize = new System.Drawing.Size(490, 589);
+			this.ClientSize = new System.Drawing.Size(368, 479);
+			this.Controls.Add(this.btnRegresar);
 			this.Controls.Add(this.lblResultado);
 			this.Controls.Add(this.btnConvertir);
 			this.Controls.Add(this.txtTipoCambio);
@@ -187,12 +213,14 @@ namespace proyectoPrueba
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1);
+			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
 			this.Name = "Form2";
 			this.Text = "Conversion de Dinero";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnRegresar;
 		private System.Windows.Forms.Label lblResultado;
 		private System.Windows.Forms.Button btnConvertir;
 		private System.Windows.Forms.TextBox txtTipoCambio;
