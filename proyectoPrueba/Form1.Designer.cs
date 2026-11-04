@@ -40,6 +40,9 @@ namespace proyectoPrueba
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.button16 = new System.Windows.Forms.Button();
+			this.btnPesos = new System.Windows.Forms.Button();
+			this.btnDospuntos = new System.Windows.Forms.Button();
+			this.btnUnpunto = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -60,7 +63,7 @@ namespace proyectoPrueba
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(322, 23);
 			this.label1.TabIndex = 2;
-			this.label1.Text = "ENCUENTRA EL BOTON CORRECTA PARA CONTINUAR";
+			this.label1.Text = "ELIGEUNA DE LAS OPCIONES";
 			// 
 			// button16
 			// 
@@ -72,11 +75,44 @@ namespace proyectoPrueba
 			this.button16.Text = "PREGUNTA MAGICA";
 			this.button16.UseVisualStyleBackColor = false;
 			// 
+			// btnPesos
+			// 
+			this.btnPesos.Location = new System.Drawing.Point(13, 113);
+			this.btnPesos.Name = "btnPesos";
+			this.btnPesos.Size = new System.Drawing.Size(99, 66);
+			this.btnPesos.TabIndex = 20;
+			this.btnPesos.Text = "CONVERCION DE DOLAR/PESOS";
+			this.btnPesos.UseVisualStyleBackColor = true;
+			this.btnPesos.Click += new System.EventHandler(this.BtnPesosClick);
+			// 
+			// btnDospuntos
+			// 
+			this.btnDospuntos.Location = new System.Drawing.Point(118, 112);
+			this.btnDospuntos.Name = "btnDospuntos";
+			this.btnDospuntos.Size = new System.Drawing.Size(100, 66);
+			this.btnDospuntos.TabIndex = 21;
+			this.btnDospuntos.Text = "DISTANCIA ENTRE DOS PUNTOS";
+			this.btnDospuntos.UseVisualStyleBackColor = true;
+			this.btnDospuntos.Click += new System.EventHandler(this.BtnDospuntosClick);
+			// 
+			// btnUnpunto
+			// 
+			this.btnUnpunto.Location = new System.Drawing.Point(224, 112);
+			this.btnUnpunto.Name = "btnUnpunto";
+			this.btnUnpunto.Size = new System.Drawing.Size(100, 66);
+			this.btnUnpunto.TabIndex = 22;
+			this.btnUnpunto.Text = "CORDENADAS DE UN PUNTO";
+			this.btnUnpunto.UseVisualStyleBackColor = true;
+			this.btnUnpunto.Click += new System.EventHandler(this.BtnUnpuntoClick);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(347, 315);
+			this.Controls.Add(this.btnUnpunto);
+			this.Controls.Add(this.btnDospuntos);
+			this.Controls.Add(this.btnPesos);
 			this.Controls.Add(this.button16);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1);
@@ -85,6 +121,9 @@ namespace proyectoPrueba
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button btnUnpunto;
+		private System.Windows.Forms.Button btnDospuntos;
+		private System.Windows.Forms.Button btnPesos;
 		private System.Windows.Forms.Button button16;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.PictureBox pictureBox1;

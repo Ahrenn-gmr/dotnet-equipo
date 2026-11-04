@@ -33,5 +33,26 @@ namespace proyectoPrueba
 		{
    			
 		}
+		
+		void BtnPesosClick(object sender, EventArgs e)
+		{
+			//Form2 y = new Form2();
+			//y.Show();
+			//this.Hide();
+		}
+		
+		void BtnDospuntosClick(object sender, EventArgs e)
+		{
+			//Form3 t = new Form3();
+			//t.Show();
+			//this.Hide();
+		}
+		
+		void BtnUnpuntoClick(object sender, EventArgs e)
+		{
+			//Form4 r = new Form4();
+			//r.Show();
+			//this.Hide();
+		}
 	}
 }
