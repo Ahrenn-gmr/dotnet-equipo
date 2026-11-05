@@ -54,5 +54,12 @@ namespace proyectoPrueba
 			P.Show();
 			this.Hide();
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Form5 T = new Form5();
+			T.Show();
+			this.Hide();
+		}
 	}
 }
