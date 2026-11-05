@@ -128,6 +128,7 @@ namespace proyectoPrueba
 			this.btnCalcular.TabIndex = 10;
 			this.btnCalcular.Text = "Calcular Cuadrante";
 			this.btnCalcular.UseVisualStyleBackColor = false;
+			this.btnCalcular.Click += new System.EventHandler(this.BtnCalcularClick);
 			// 
 			// lblResultado
 			// 
